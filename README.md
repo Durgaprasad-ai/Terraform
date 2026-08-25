@@ -1,5 +1,34 @@
-Terraform
+**Terraform**
 
 Definition: Terraform is an Infrastructure as Code (IaC) tool used to provision and manage infrastructure through configuration files.
 
 Terraform allows you to define infrastructure such as virtual machines, networks, databases, storage, and DNS using code instead of manually creating them.
+
+**Infrastructure as Code (IaC)**
+
+Definition: IaC is the practice of managing and provisioning infrastructure using machine-readable configuration files.
+
+Benefits of IaC
+Automation
+Consistency
+Version control
+Repeatability
+Faster deployments
+Reduced human error
+
+
+**Terraform Architecture
+**
+Definition: Terraform architecture consists of configuration files, Terraform Core, providers, state, and infrastructure resources.
+
+Basic flow:
+
+Terraform Configuration
+        ↓
+Terraform Core
+        ↓
+Provider
+        ↓
+Cloud/API
+        ↓
+Infrastructure
